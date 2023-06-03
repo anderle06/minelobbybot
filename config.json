@@ -1,0 +1,31 @@
+{
+    "client_id": "1114497452393898034",
+    "bot_url": "https://localhost:3000",
+    "discord": {
+        "minelobby_server": "1113190588846710794",
+        "fatal_error_alert_user": "643536207623618589",
+        "channel": {
+            "staff": {
+                "log": "1114543930101465088",
+                "modlog": "1114543930101465088"
+            }
+        }
+    },
+    "permission": {
+        "sendembed": ["1113351765270736966", "1113351901271044116"]
+    },
+    "misc": {
+        "ping_for_fatal_error": false,
+        "debug": false,
+        "color": {
+            "main": "0xff6303",
+            "log": "0x25ba25",
+            "error": "0xdb9823",
+            "fatal": "0xb31717"
+        },
+        "embed_footer": {
+            "text": "MineLobby Bot by and#2854",
+            "iconURL": "https://cdn.discordapp.com/attachments/1114543930101465088/1114546342493163561/a6cd7b492edb8ac0ad2f1a93d6fec426.png"
+        }
+    }
+}

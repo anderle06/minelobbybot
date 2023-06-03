@@ -1,0 +1,32 @@
+{
+  "name": "minelobby",
+  "version": "1.0.0",
+  "description": "The bot for the best Mineplex Server in the world.",
+  "main": "index.js",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "commands": "node src/commands/deploy_commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderle06/minelobbybot.git"
+  },
+  "keywords": [
+    "Mineplex"
+  ],
+  "author": "anderle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderle06/minelobbybot/issues"
+  },
+  "homepage": "https://github.com/anderle06/minelobbybot#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "undici": "^5.22.1"
+  }
+}
