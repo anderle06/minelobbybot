@@ -1,0 +1,1 @@
+{ "restart": { "exclude": [ "\\.js$", "\\.json" ]}, "throttle": 100 }
