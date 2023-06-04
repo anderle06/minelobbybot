@@ -18,6 +18,7 @@
         "ping_for_fatal_error": false,
         "debug": false,
         "color": {
+            "none": "0x302c34",
             "main": "0xff6303",
             "log": "0x25ba25",
             "error": "0xdb9823",

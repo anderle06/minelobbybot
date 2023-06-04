@@ -4,8 +4,8 @@ const constants = require('../constants/information_constants');
 
 async function send(channel) {
     const embeds = [
-        new EmbedBuilder().setColor(Number(misc.color.main)).setImage(constants.main.banner),
-        new EmbedBuilder().setColor(Number(misc.color.main)).setTitle(constants.main.title).setDescription(constants.main.text)
+        new EmbedBuilder().setColor(Number(misc.color.none)).setImage(constants.main.banner),
+        new EmbedBuilder().setColor(Number(misc.color.none)).setDescription(constants.main.text).setImage(constants.main.image)
     ];
     const buttons = [
         new ActionRowBuilder().addComponents(
@@ -18,16 +18,16 @@ async function send(channel) {
 
 async function showRulesEmbed(interaction) {
     const embeds = [
-        new EmbedBuilder().setColor(Number(misc.color.main)).setImage(constants.rules.banner),
-        new EmbedBuilder().setColor(Number(misc.color.main)).setTitle(constants.rules.title).setDescription(constants.rules.text)
+        new EmbedBuilder().setColor(Number(misc.color.none)).setImage(constants.rules.banner),
+        new EmbedBuilder().setColor(Number(misc.color.none)).setDescription(constants.rules.text).setImage(constants.rules.image)
     ];
     await interaction.reply({ embeds, ephemeral: true });
 }
 
 async function showRolesEmbed(interaction) {
     const embeds = [
-        new EmbedBuilder().setColor(Number(misc.color.main)).setImage(constants.roles.banner),
-        new EmbedBuilder().setColor(Number(misc.color.main)).setTitle(constants.roles.title).setDescription(constants.roles.text)
+        new EmbedBuilder().setColor(Number(misc.color.none)).setImage(constants.roles.banner),
+        new EmbedBuilder().setColor(Number(misc.color.none)).setDescription(constants.roles.text).setImage(constants.roles.image)
     ];
     await interaction.reply({ embeds, ephemeral: true });
 }
